@@ -1,9 +1,9 @@
 import React from 'react'
-import { SafeAreaView } from 'react-native'
+import { WrapperScreensStyle } from './styled'
 export const WrapperScreens = ({children}: any)=>{
     return (
-        <SafeAreaView>
+        <WrapperScreensStyle>            
             {children}
-        </SafeAreaView>
+        </WrapperScreensStyle>
     )
 }

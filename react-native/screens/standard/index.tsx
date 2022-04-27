@@ -1,3 +1,4 @@
+import React from 'react'
 import { Text } from "react-native"
 import styled from "styled-components/native"
 import { WrapperScreens } from "../components/wrapperScreens"
@@ -10,10 +11,10 @@ export const StandardScreen = ()=>{
     return (
         <>
             <WrapperScreens>
-                <Wrap>
+              
                     
                     <Text>Teste</Text>
-                </Wrap>    
+              
             </WrapperScreens>
         </>
     )
