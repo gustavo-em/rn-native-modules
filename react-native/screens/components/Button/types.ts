@@ -1,4 +1,5 @@
 export type IButtonApp = {
     color?:string;
-    children?: any
+    children?: any;
+    onPress?: any;
 }

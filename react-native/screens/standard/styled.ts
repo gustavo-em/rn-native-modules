@@ -12,6 +12,7 @@ export const WrapperButtonsStandard = styled.View`
 export const TextStandardLogo = styled.Text`
     font-size: 40px;
     color: ${colors.green100};
+    opacity: ${props=>props.opacity};
     margin-bottom: 50px;
 
 `
